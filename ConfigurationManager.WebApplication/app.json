@@ -1,0 +1,3 @@
+﻿{
+    "connectionStrings": { "ConfigurationManager.WebService": "http://localhost:8080" }
+}

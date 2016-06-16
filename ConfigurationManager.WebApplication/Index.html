@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Configuration Manager Demonstration Page</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="Content/bootstrap-3.3.5.min.css">
+    <link rel="stylesheet" href="Content/app.css"/>
+    <script src="Content/jquery-2.1.4.min.js"></script>
+    <script src="Content/bootstrap-3.3.5.min.js"></script>
+    <script src="Content/app.js"></script>
+</head>
+<body class="container">
+<div>
+    <div class="panel">
+        <div class="panel-heading">
+            <div class="input-group">
+                <div class="input-group-btn">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">ACTION &nbsp;<span class="caret"></span></button>
+                    <ul class="dropdown-menu" id="action-selector">
+                        <li>
+                            <a href="#" data-action="getValue">GET Value</a>
+                        </li>
+                        <li>
+                            <a href="#" data-action="getSection">GET Section</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <input type="text" class="form-control" id="key-input" placeholder="Key">
+            </div>
+        </div>
+
+        <div class="panel-body">
+            <div id="status-container">
+            </div>
+            <div class="well well-lg">
+                <div class="list-group" id="section-container"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
